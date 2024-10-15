@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+<h2>Login</h2>
+
+<form asp-action="Login" method="post">
+    <div>
+        <label>Nombre de Usuario o Correo</label>
+        <input type="text" name="usernameOrEmail" required />
+    </div>
+    <div>
+        <label>Contraseña</label>
+        <input type="password" name="password" required />
+    </div>
+    <button type="submit">Iniciar Sesión</button>
+</form>
+
+@if (ViewBag.Message != null)
+{
+        <div class="alert alert-danger">
+        @ViewBag.Message
+        </div>
+}

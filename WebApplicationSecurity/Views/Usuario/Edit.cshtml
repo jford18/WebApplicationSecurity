@@ -1,0 +1,83 @@
+﻿@model System.Data.DataRow
+
+@{
+    ViewBag.Title = "Editar Usuario";
+}
+
+<h2>Editar Usuario</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" name="id" value="@Model["idUsuario"]" />
+
+    <!-- Información de Persona -->
+    <div>
+        <label>Nombres</label>
+        <input type="text" name="nombres" value="@Model["Nombres"]" required />
+    </div>
+
+    <div>
+        <label>Apellidos</label>
+        <input type="text" name="apellidos" value="@Model["Apellidos"]" required />
+    </div>
+
+    <div>
+        <label>Identificación</label>
+        <input type="text" name="identificacion" value="@Model["Identificacion"]" required />
+    </div>
+
+    <div>
+        <label>Fecha de Nacimiento</label>
+        @{
+            DateTime fechaNacimiento = Convert.ToDateTime(Model["FechaNacimiento"]);
+        }
+        <input type="date" name="fechaNacimiento" value="@fechaNacimiento.ToString("yyyy-MM-dd")" required />
+
+    </div>
+
+    <!-- Información del Usuario -->
+    <div>
+        <label>Nombre de Usuario</label>
+        <input type="text" name="userName" value="@Model["UserName"]" required />
+    </div>
+
+    <div>
+        <label>Correo</label>
+        <input type="email" name="mail" value="@Model["Mail"]" required />
+    </div>
+
+    <div>
+        <label>Contraseña</label>
+        <input type="password" name="password" value="@Model["Password"]" required />
+    </div>
+
+    <div>
+        <label>Estado</label>
+        <select name="status">
+            @if (Model["Status"].ToString() == "Active")
+            {
+                <option value="Active" selected>Activo</option>
+                <option value="Inactive">Inactivo</option>
+            }
+            else
+            {
+                <option value="Active">Activo</option>
+                <option value="Inactive" selected>Inactivo</option>
+            }
+        </select>
+    </div>
+
+<div>
+    <label>Rol</label>
+    <select name="rolId">
+        <option value="1" >Admin</option>
+        <option value="2" >User</option>
+    </select>
+</div>
+
+
+
+
+
+
+    <button type="submit">Guardar Cambios</button>
+</form>

@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Test Cliente Manta\\WebApplicationSecurity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|c:\\test cliente manta\\webapplicationsecurity\\webapplicationsecurity\\data\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|solutionrelative:webapplicationsecurity\\data\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|c:\\test cliente manta\\webapplicationsecurity\\webapplicationsecurity\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|solutionrelative:webapplicationsecurity\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|c:\\test cliente manta\\webapplicationsecurity\\webapplicationsecurity\\views\\usuario\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|solutionrelative:webapplicationsecurity\\views\\usuario\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|c:\\test cliente manta\\webapplicationsecurity\\webapplicationsecurity\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|solutionrelative:webapplicationsecurity\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|c:\\test cliente manta\\webapplicationsecurity\\webapplicationsecurity\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|solutionrelative:webapplicationsecurity\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|c:\\test cliente manta\\webapplicationsecurity\\webapplicationsecurity\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|solutionrelative:webapplicationsecurity\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|c:\\test cliente manta\\webapplicationsecurity\\webapplicationsecurity\\views\\dashboard\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|solutionrelative:webapplicationsecurity\\views\\dashboard\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|c:\\test cliente manta\\webapplicationsecurity\\webapplicationsecurity\\views\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|solutionrelative:webapplicationsecurity\\views\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|c:\\test cliente manta\\webapplicationsecurity\\webapplicationsecurity\\views\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|solutionrelative:webapplicationsecurity\\views\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|c:\\test cliente manta\\webapplicationsecurity\\webapplicationsecurity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|solutionrelative:webapplicationsecurity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|c:\\test cliente manta\\webapplicationsecurity\\webapplicationsecurity\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|solutionrelative:webapplicationsecurity\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|c:\\test cliente manta\\webapplicationsecurity\\webapplicationsecurity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{017BBC24-5DE2-4385-A262-7FAF8608BE9A}|WebApplicationSecurity\\WebApplicationSecurity.csproj|solutionrelative:webapplicationsecurity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Welcome.cshtml",
+              "DocumentMoniker": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Views\\Dashboard\\Welcome.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationSecurity\\Views\\Dashboard\\Welcome.cshtml",
+              "ToolTip": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Views\\Dashboard\\Welcome.cshtml",
+              "RelativeToolTip": "WebApplicationSecurity\\Views\\Dashboard\\Welcome.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T02:59:36.901Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Views\\Usuario\\Edit.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationSecurity\\Views\\Usuario\\Edit.cshtml",
+              "ToolTip": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Views\\Usuario\\Edit.cshtml",
+              "RelativeToolTip": "WebApplicationSecurity\\Views\\Usuario\\Edit.cshtml",
+              "ViewState": "AQIAACIAAAAAAAAAAAAQwEkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T03:34:47.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Data\\DataAccess.cs",
+              "RelativeDocumentMoniker": "WebApplicationSecurity\\Data\\DataAccess.cs",
+              "ToolTip": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Data\\DataAccess.cs",
+              "RelativeToolTip": "WebApplicationSecurity\\Data\\DataAccess.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAEwEcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:16:22.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Views\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationSecurity\\Views\\AdminDashboard.cshtml",
+              "ToolTip": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Views\\AdminDashboard.cshtml",
+              "RelativeToolTip": "WebApplicationSecurity\\Views\\AdminDashboard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T02:12:12.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Welcome.cshtml",
+              "DocumentMoniker": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Views\\Welcome.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationSecurity\\Views\\Welcome.cshtml",
+              "ToolTip": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Views\\Welcome.cshtml",
+              "RelativeToolTip": "WebApplicationSecurity\\Views\\Welcome.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T02:11:38.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "WebApplicationSecurity\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "WebApplicationSecurity\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAawA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T02:11:07.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "WebApplicationSecurity\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "WebApplicationSecurity\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAswCMAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T02:10:05.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebApplicationSecurity\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebApplicationSecurity\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T02:03:08.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Views\\Usuario\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationSecurity\\Views\\Usuario\\Index.cshtml",
+              "ToolTip": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Views\\Usuario\\Index.cshtml",
+              "RelativeToolTip": "WebApplicationSecurity\\Views\\Usuario\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T03:29:52.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplicationSecurity\\Program.cs",
+              "ToolTip": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Program.cs",
+              "RelativeToolTip": "WebApplicationSecurity\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T02:14:04.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "WebApplicationSecurity\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "WebApplicationSecurity\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T02:09:14.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplicationSecurity\\appsettings.json",
+              "ToolTip": "C:\\Test Cliente Manta\\WebApplicationSecurity\\WebApplicationSecurity\\appsettings.json",
+              "RelativeToolTip": "WebApplicationSecurity\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-15T01:40:51.959Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

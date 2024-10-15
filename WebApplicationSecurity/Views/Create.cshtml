@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Crear Usuario";
+}
+
+<h2>Crear Usuario</h2>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label>Nombre de Usuario</label>
+        <input type="text" name="userName" required />
+    </div>
+    <div>
+        <label>Contraseña</label>
+        <input type="password" name="password" required />
+    </div>
+    <div>
+        <label>Correo</label>
+        <input type="email" name="mail" required />
+    </div>
+    <div>
+        <label>ID Persona</label>
+        <input type="number" name="personaId" required />
+    </div>
+    <button type="submit">Crear</button>
+</form>
+
+@if (ViewBag.Message != null)
+{
+    <div class="alert alert-danger">
+        @ViewBag.Message
+    </div>
+}

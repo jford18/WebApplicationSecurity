@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Dashboard de Administrador";
+}
+
+<h2>Dashboard de Administrador</h2>
+
+<div>
+    <h3>Usuarios Activos</h3>
+    <ul>
+        @foreach (var user in Model.Rows)
+        {
+            <li>@user["UserName"] - @user["Status"]</li>
+        }
+    </ul>
+</div>

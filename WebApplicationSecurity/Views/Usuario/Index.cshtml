@@ -1,0 +1,56 @@
+﻿@model System.Data.DataTable
+
+@{
+    ViewBag.Title = "Mantenimiento de Usuarios";
+}
+
+<h2>Mantenimiento de Usuarios</h2>
+
+<!-- Filtro para búsqueda de personas (solo administradores) -->
+    <form asp-action="Index" method="get">
+        <input type="text" name="searchTerm" placeholder="Buscar usuario por nombre o correo" />
+        <button type="submit">Buscar</button>
+    </form>
+
+    <!-- Formulario para Carga Masiva de Usuarios -->
+    <h3>Carga Masiva de Usuarios</h3>
+    <form asp-action="UploadUsersFromCsv" method="post" enctype="multipart/form-data">
+        <div>
+            <label for="file">Subir archivo (Excel o CSV):</label>
+            <input type="file" name="file" required />
+        </div>
+        <button type="submit">Cargar Usuarios</button>
+    </form>
+    <hr />
+
+
+<!-- Mostrar la lista de usuarios -->
+<table class="table">
+    <thead>
+        <tr>
+            <th>Nombre de Usuario</th>
+            <th>Correo</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (System.Data.DataRow user in Model.Rows)
+        {
+            <tr>
+                <td>@user["UserName"]</td>
+                <td>@user["Mail"]</td>
+                <td>@user["Status"]</td>
+                <td>
+                    
+                        <a asp-action="Edit" asp-route-id="@(user["idUsuario"])">Editar</a>
+                        <a asp-action="ChangeStatus" asp-route-id="@(user["idUsuario"])">Cambiar Estado</a>
+                    
+                    
+                        
+                    
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

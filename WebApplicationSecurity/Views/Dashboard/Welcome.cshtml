@@ -1,0 +1,19 @@
+﻿@model System.Data.DataTable
+
+@{
+    ViewBag.Title = "Bienvenida";
+}
+<h2>Bienvenido al Sistema</h2>
+
+@if (Model != null && Model.Rows.Count > 0)
+{
+    <div>
+        <h4>Última Sesión</h4>
+        <p>Inicio: @Model.Rows[0]["FechaIngreso"]</p>
+        <p>Fin: @Model.Rows[0]["FechaCierre"]</p>
+    </div>
+}
+else
+{
+    <p>No hay datos de sesión disponibles.</p>
+}

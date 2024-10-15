@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Bienvenida";
+}
+
+<h2>Bienvenido</h2>
+
+@if (Model != null)
+{
+    <div>
+        <h4>Última Sesión</h4>
+        <p>Inicio: @Model.First()["FechaIngreso"]</p>
+        <p>Fin: @Model.First()["FechaCierre"]</p>
+    </div>
+}
