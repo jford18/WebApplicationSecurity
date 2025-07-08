@@ -99,8 +99,4 @@ public IActionResult UploadUsersFromCsv(IFormFile file)
 
     return RedirectToAction("Index");
 }
-
-
-    // Método para cargar usuarios masivamente desde un archivo (solo administrador)
-
 }
